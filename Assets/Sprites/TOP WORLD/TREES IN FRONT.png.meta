@@ -152,12 +152,12 @@ TextureImporter:
       name: TREES IN FRONT_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 457
         y: 0
-        width: 962
+        width: 505
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -178,7 +178,7 @@ TextureImporter:
         width: 375
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,27 +186,6 @@ TextureImporter:
       bones: []
       spriteID: 1d2fcde1b9233a147926092708c5f733
       internalID: 419738501
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TREES IN FRONT_2
-      rect:
-        serializedVersion: 2
-        x: 2305
-        y: 120
-        width: 10
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c52477873e03a8d49983c63bcdacc4c1
-      internalID: -2044714866
       vertices: []
       indices: 
       edges: []
@@ -220,7 +199,7 @@ TextureImporter:
         width: 363
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -241,7 +220,7 @@ TextureImporter:
         width: 472
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -262,7 +241,7 @@ TextureImporter:
         width: 487
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -283,7 +262,7 @@ TextureImporter:
         width: 375
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,27 +270,6 @@ TextureImporter:
       bones: []
       spriteID: ae2f6fe0048d2144abf5c3ddc1abe9bc
       internalID: -929008484
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TREES IN FRONT_7
-      rect:
-        serializedVersion: 2
-        x: 6235
-        y: 120
-        width: 9
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f88d31f8206cd1b45a44d65c258ac7dc
-      internalID: 2123021722
       vertices: []
       indices: 
       edges: []
@@ -325,7 +283,7 @@ TextureImporter:
         width: 363
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -346,7 +304,7 @@ TextureImporter:
         width: 298
         height: 540
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
