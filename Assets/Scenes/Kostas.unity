@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 66727379}
   - component: {fileID: 66727378}
   m_Layer: 0
-  m_Name: BACKGROUND-TOP
+  m_Name: BACKGROUND-DAY
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -447,7 +447,7 @@ GameObject:
   - component: {fileID: 261175652}
   - component: {fileID: 261175651}
   m_Layer: 0
-  m_Name: Reference
+  m_Name: Reference-Day
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1046,7 +1046,7 @@ GameObject:
   - component: {fileID: 1091014765}
   - component: {fileID: 1091014764}
   m_Layer: 0
-  m_Name: BACKGROUND-BOTTOM
+  m_Name: BACKGROUND-NIGHT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1134,7 +1134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1342163706}
   m_Layer: 0
-  m_Name: Top World
+  m_Name: Day World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1622,7 +1622,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1645572903}
   m_Layer: 0
-  m_Name: Bottom World
+  m_Name: Night World
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1993,7 +1993,7 @@ GameObject:
   - component: {fileID: 2026117744}
   - component: {fileID: 2026117743}
   m_Layer: 0
-  m_Name: reference
+  m_Name: Reference-Night
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
