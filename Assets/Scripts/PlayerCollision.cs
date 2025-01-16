@@ -5,8 +5,8 @@ using UnityEngine;
 public class PlayerCollision : MonoBehaviour
 {
     public Rotation rotation;
-    private void isHoldingDayKey;
-    private void isHoldingNightKey;
+    private bool isHoldingDayKey;
+    private bool isHoldingNightKey;
 
     private void Start()
     {
