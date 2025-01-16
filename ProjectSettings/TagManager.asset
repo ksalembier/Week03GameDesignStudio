@@ -4,7 +4,12 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Day Obstacle
+  - Day Portal
+  - Night Portal
+  - Day Door
+  - Night Door
+  - Day Key
+  - Night Key
   layers:
   - Default
   - TransparentFX
