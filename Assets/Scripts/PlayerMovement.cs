@@ -335,4 +335,13 @@ public class PlayerMovement : MonoBehaviour
     }
 
     #endregion
+
+    #region Draw Debuggers
+
+    private void DrawJumpArc(float moveSpeed, Color gizmoColor)
+    {
+        
+    }
+
+    #endregion
 }
