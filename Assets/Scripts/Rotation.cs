@@ -54,7 +54,14 @@ public class Rotation : MonoBehaviour
     {
         SetPosition();
         AddBackgroundAsChildren();
-        //RotateCoroutine();
+        // if (transform.rotation.z == 0)
+        // {
+        //     StartCoroutine(RotateCoroutine(transform.rotation, (transform.rotation.x, transform.rotation.y, 180f, 0f), 2));
+        // }
+        // else
+        // {
+        //     StartCoroutine(RotateCoroutine(transform.rotation, (transform.rotation.x, transform.rotation.y, 0f, 0f), 2));
+        // }
         RemoveBackgroundAsChildren();
     }
 
