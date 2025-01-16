@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7364278727104051434}
   - component: {fileID: 5941779489737566523}
+  - component: {fileID: 6638534844128723199}
   m_Layer: 0
   m_Name: ROCKS AND PADDLES_6
   m_TagString: Untagged
@@ -84,3 +85,63 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!60 &6638534844128723199
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2629075121545106863}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.8600001, y: 1.57}
+    newSize: {x: 3.8600001, y: 1.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.39500424, y: 0.37875}
+      - {x: -0.017495727, y: 0.79125}
+      - {x: -0.5799957, y: 0.79125}
+      - {x: -1.0674957, y: 0.49124998}
+      - {x: -1.6299956, y: 0.52875}
+      - {x: -1.8924956, y: -0.033749983}
+      - {x: -1.8924956, y: -0.48374996}
+      - {x: -1.7049956, y: -0.59624994}
+      - {x: -1.1424956, y: -0.59624994}
+      - {x: -0.80499566, y: -0.6712499}
+      - {x: -0.24249572, y: -0.78374994}
+      - {x: 1.9325042, y: -0.78374994}
+      - {x: 1.9700042, y: -0.70874995}
+      - {x: 1.9700042, y: -0.48374996}
+      - {x: 1.5950042, y: -0.033749983}
+  m_UseDelaunayMesh: 0

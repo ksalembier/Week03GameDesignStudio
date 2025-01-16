@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: adbe10ab2e2cdca4d8c0c90bc806ef02
+guid: bc331e85c104d4241b23bba29a68476d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: LIGHTS_0
+      name: LIGHTS2_0
       rect:
         serializedVersion: 2
         x: 1913
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 174c3f6bc0e7a8440934c5ea2372eea2
-      internalID: -134945989
+      spriteID: f6564672811099d47b582ea152f75a27
+      internalID: 2091138829
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LIGHTS_1
+      name: LIGHTS2_1
       rect:
         serializedVersion: 2
         x: 3742
@@ -184,14 +184,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 736683ff58b96744a9c174792ffc33b2
-      internalID: 1864864526
+      spriteID: d14623d9782fe3043a668c06eade9040
+      internalID: 2038467887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: LIGHTS_2
+      name: LIGHTS2_2
       rect:
         serializedVersion: 2
         x: 5704
@@ -205,8 +205,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46131a77ed7f9904780ebb5a602705dc
-      internalID: 1571999623
+      spriteID: 0e34dcf7cca0ba74ca377b074bd94da9
+      internalID: -13502364
       vertices: []
       indices: 
       edges: []
@@ -222,9 +222,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      LIGHTS_0: -134945989
-      LIGHTS_1: 1864864526
-      LIGHTS_2: 1571999623
+      LIGHTS2_0: 2091138829
+      LIGHTS2_1: 2038467887
+      LIGHTS2_2: -13502364
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
