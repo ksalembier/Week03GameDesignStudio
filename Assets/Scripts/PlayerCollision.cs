@@ -39,7 +39,6 @@ public class PlayerCollision : MonoBehaviour
         this.GetComponent<Collider2D>().enabled = true;
     }
 
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         // obstacle collisions
