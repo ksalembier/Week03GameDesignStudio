@@ -12,13 +12,13 @@ public class Rotation : MonoBehaviour
     private static GameObject divide;
     private static GameObject player;
 
-    public float targetRotation;
+    private float targetRotation;
 
     private void Start()
     {
-        day = GameObject.Find("Day Background");
-        night = GameObject.Find("Night Background");
-        divide = GameObject.Find("Background Divide");
+        day = GameObject.Find("DAY");
+        night = GameObject.Find("NIGHT");
+        divide = GameObject.Find("DIVIDE");
         player = GameObject.Find("Player");
     }
 
@@ -50,7 +50,8 @@ public class Rotation : MonoBehaviour
         SetPosition();
         AddBackgroundAsChildren();
         targetRotation = newZValue;
-        yield return new WaitForSeconds(2.25f);
+        yield return new WaitForSeconds(2.5f);
+        transform.rotation = Quaternion.Euler(0, 0, newZValue);
         RemoveBackgroundAsChildren();
     }
 

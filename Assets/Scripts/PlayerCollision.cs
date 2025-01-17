@@ -30,13 +30,13 @@ public class PlayerCollision : MonoBehaviour
     private void MakeIncorporeal()
     {
         this.GetComponent<Rigidbody2D>().simulated = false;
-        this.GetComponent<BoxCollider2D>().enabled = false;
+        this.GetComponent<Collider2D>().enabled = false;
     }
 
     private void MakeCorporeal()
     {
         this.GetComponent<Rigidbody2D>().simulated = true;
-        this.GetComponent<BoxCollider2D>().enabled = true;
+        this.GetComponent<Collider2D>().enabled = true;
     }
 
 
@@ -79,20 +79,16 @@ public class PlayerCollision : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collider)
-    {
-
-    }
-
     private IEnumerator RotateCoroutine(float newZValue, bool isDay)
     {
         MakeIncorporeal();
-        rotation.GetComponent<Rotation>().Rotate(180f);
-        yield return new WaitForSeconds(2.25f);
+        rotation.GetComponent<Rotation>().Rotate(newZValue);
+        yield return new WaitForSeconds(2.5f);
         float newStartX;
         if (isDay) { newStartX = nightStartMarker.transform.position.x; }
         else { newStartX = dayStartMarker.transform.position.x; }
-        StartCoroutine(MoveToStartCoroutine(transform.position, new Vector2(newStartX, transform.position.y), 1.0f));
+        //StartCoroutine(MoveToStartCoroutine(transform.position, new Vector2(newStartX, transform.position.y), 1.0f));
+        StartCoroutine(MoveToStartCoroutine(transform.position, new Vector2(newStartX, 3.0f), 1.0f));
         yield return new WaitForSeconds(2.0f);
         MakeCorporeal();
     }
